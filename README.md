@@ -2,16 +2,16 @@
 
 Naufal Fajar Imani             05111940000007
 
-Jundullah H. R.             05111940000144
+Jundullah H. R.                05111940000144
 
-Yeremia D Limantara             05111940000232
+Yeremia D Limantara            05111940000232
 
 ## 1. Sebutkan webserver yang digunakan pada "ichimarumaru.tech"! #
 Masukkan filter ```ip.addr==167.172.77.139 and http.server != ''``` . lalu pilih paket yang mana saja, dan lihat informasi (tcp stream) paket pada http.
 ![no1](https://user-images.githubusercontent.com/81339649/134804813-4393054c-3a4f-4f1b-a776-1c17fad104f1.png)
 
 ## 2. Temukan paket dari web-web yang menggunakan basic authentication method! #
-Masukkan display filter ```http.authbasic``` .
+Masukkan filter ```http.authbasic``` .
 ![no2](https://user-images.githubusercontent.com/81339649/134805003-06875b96-5609-495e-a2c0-f529f608d84f.png)
 
 ![no2 2](https://user-images.githubusercontent.com/81339649/134804957-9a3e7bb2-b4eb-4dd1-8a56-f0513e25aeb9.png)
@@ -45,28 +45,28 @@ Masukkan filter ```ftp-data.command contains secret```.
 Masukkan filter ```ftp-data.command contains history```
 ![no10](https://user-images.githubusercontent.com/81339649/134805105-0191b441-68d8-4fbc-b951-5c58e97232f6.png)
 
-Masukkan Filter ```ftp-data.command contains bukanapaapa.txt```
+Masukkan filter ```ftp-data.command contains bukanapaapa.txt```
 ![no10 2](https://user-images.githubusercontent.com/81339649/134805123-ad2cb932-31a9-4eb7-a75a-2eebcd2297eb.png)
 
 ## 11. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!  #
-Masukkan capture filter ```src port 80```.
+Masukkan filter ```src port 80```.
 ![no11](https://user-images.githubusercontent.com/81339649/134805135-78b004ac-5112-4eac-a228-38cab156dd79.png)
 
 ## 12. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21! #
-Masukkan capture filter ```tcp.port==21```.
+Masukkan filter ```tcp.port==21```.
 ![no12](https://user-images.githubusercontent.com/81339649/134805141-046d590f-41ac-4c92-ba92-c3e5a3e6851b.png)
 
 ## 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443! #
-Masukkan capture filter ```dst port 443```.
+Masukkan filter ```dst port 443```.
 ![no13](https://user-images.githubusercontent.com/81339649/134805148-581264ae-d97f-4ed8-b57a-fc773285b272.png)
 ![no13 2](https://user-images.githubusercontent.com/81339649/134805146-ccf7b883-217f-4858-9601-077feb0b363e.png)
 
 ## 14. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id! #
-Masukkan capture filter ```dst host  103.7.13.247 ```(ip kemenag.go.id).
+Masukkan filter ```dst host  103.7.13.247 ```(ip kemenag.go.id).
 ![no13 2](https://user-images.githubusercontent.com/81339649/134805146-ccf7b883-217f-4858-9601-077feb0b363e.png)
 
 ## 15. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian! #
-Masukkan capture filter ```src host 192.168.1.2```(ip yeremia).
+Masukkan filter ```src host 192.168.1.2```(ip yeremia).
 ![no15](https://user-images.githubusercontent.com/81339649/134805162-fc25b755-ac17-47b3-84ed-05b13038c825.png)
 
 ## Kendala #
